@@ -1,7 +1,26 @@
 ﻿@{
-    ViewData["Title"] = "About";
+    ViewData["Title"] = "Grid";
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
+<h2>@ViewData["GRID"]</h2>
+<h2>Grid</h2>
+<form >
+    <table class="table-bordered"  style="table-layout: fixed; width: 100%; height:100%; text-align:center;">
+        <tr style="height: 60px;">
+            <td><input type="checkbox" /></input></td>
+            <td><input type="checkbox" /></input></td>
+            <td><input type="checkbox" /></input></td>
+        </tr>
+        <tr style="height: 60px;">
+            <td><input type="checkbox" /></input></td>
+            <td><input type="checkbox" /></input></td>
+            <td><input type="checkbox" /></input></td>
+        </tr>
+        <tr style="height: 60px;">
+            <td><input type="checkbox" /></input></td>
+            <td><input type="checkbox" /></input></td>
+            <td><input type="checkbox" /></input></td>
+        </tr>
+    </table>
+    <input type="reset" class="btn-danger" id="erase" value="erase"></input>
+</form>
 
-<p>Use this area to provide additional information.</p>
